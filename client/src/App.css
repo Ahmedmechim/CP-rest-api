@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#comp{
+  color: rgb(155, 73, 73);
+  text-decoration: line-through;
+  background-color: rgb(39, 170, 35);
+}
+.lista{
+  background-color:rgb(202, 80, 80);
+  width: 300px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px 10px 10px 10px ;
+  margin-top: 25px;
+color: rgb(208, 211, 23);
+}
+.tache{
+ 
+  background-color: rgb(49, 62, 92);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  height: 55px;
+margin: 15px;
+border-radius: 10px 10px 10px 10px ;
+
+}
+.tache button{
+  width: 24px;
+  height: 24px;
+  background-color: unset;
+  border: unset;
+}
+body{
+  background: linear-gradient(90deg, rgb(200, 59, 59) 0%, rgb(36, 54, 92) 100%);
+}
+.edit{
+  margin: 25px;
+}
